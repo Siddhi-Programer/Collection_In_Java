@@ -30,8 +30,8 @@ public class BubbleSort {
 		// out for loop - no. of bubble rounds (n-1)
 		for (int i = 0; i < inputArray.length - 1; i++) {
 
-			for (int j = 0; j < inputArray.length - i; j++) {
-				if (j + 1 <= inputArray.length - 1 && inputArray[j] > inputArray[j + 1]) {
+			for (int j = 0; j < inputArray.length -1- i; j++) {
+				if ( inputArray[j] > inputArray[j + 1]) {
 					{
 						// swap elements
 						temp = inputArray[j];
